@@ -33,6 +33,38 @@ Akses lokalhost dan arahkan ke folder tersebut:
 ```sh
 burger-king-wp
 ```
+
+file ```.htaccess`` untuk Development
+```sh
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /burger-king-wp/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /burger-king-wp/index.php [L]
+</IfModule>
+# END WordPress
+```
+
+file ```.htaccess`` untuk di CPANEL
+```sh
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+```
+
+
+# END WordPress
+
 ### License
 
 [The MIT License](https://opensource.org/licenses/MIT)

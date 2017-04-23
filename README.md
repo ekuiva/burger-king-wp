@@ -22,6 +22,12 @@ Buat database dengan nama
 ```sh
 burger-king-wp
 ```
+
+Username & Password: 
+```sh
+Username : admin
+Password : admin
+```
 Akses lokalhost dan arahkan ke folder tersebut:
 ```sh
 burger-king-wp

@@ -72,5 +72,3 @@ RewriteRule . /index.php [L]
 
 **Free Software, Hell Yeah!**
 
-**Free Software, Hell Yeah!**
-

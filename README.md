@@ -18,7 +18,7 @@ Clone repositori ini melalui command line:
 $ git clone https://github.com/ekuiva/burger-king-wp.git
 ```
 
-Buat database dengan nama 
+Buat database dengan nama dan silahkan import database di dalam folder ```sh DATABASE```
 ```sh
 burger-king-wp
 ```

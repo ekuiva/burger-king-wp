@@ -23,10 +23,11 @@ Buat database dengan nama dan silahkan import database di dalam folder ```DATABA
 burger-king-wp
 ```
 
-Username & Password: 
+Demo website username & password: 
 ```sh
-Username : admin
-Password : admin
+URL : bk.ekuiva.com
+Username : demo	
+Password : demo
 ```
 Akses lokalhost dan arahkan ke folder tersebut:
 ```sh

@@ -34,7 +34,7 @@ Akses lokalhost dan arahkan ke folder tersebut:
 burger-king-wp
 ```
 
-file ```.htaccess`` untuk Development
+file ```.htaccess``` untuk Development
 ```sh
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -48,7 +48,7 @@ RewriteRule . /burger-king-wp/index.php [L]
 # END WordPress
 ```
 
-file ```.htaccess`` untuk di CPANEL
+file ```.htaccess``` untuk di CPANEL
 ```sh
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -62,8 +62,6 @@ RewriteRule . /index.php [L]
 # END WordPress
 ```
 
-
-# END WordPress
 
 ### License
 

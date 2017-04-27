@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /burger-king-wp/
+RewriteBase /burger-king-wp-sever/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /burger-king-wp/index.php [L]
+RewriteRule . /burger-king-wp-sever/index.php [L]
 </IfModule>
 
 # END WordPress
